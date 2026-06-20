@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Smiley Dental Nairobi - Experience life-changing smile restorations by Dr. Ruto in Eastleigh Section 1. Affordable Implants, Veneers, and Braces.">
+    <title>Smiley Dental | Home of Smile Restoration</title>
+
+    <!-- Modern Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="logo-square.png">
+
+    <!-- Performance: Preload CSS and Poster only (Video is too heavy for preload) -->
+    <link rel="preload" as="image" href="logo-square-transp.png" fetchpriority="high">
+</head>
+
+<body>
+
+    <!-- Premium Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">
+                <img src="logo-long-transp.png" alt="Smiley Dental Logo">
+            </a>
+            <div class="nav-actions">
+                <a href="https://wa.me/254719115082" class="btn btn-whatsapp" style="padding: 12px 24px;">
+                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.72.937 3.659 1.432 5.628 1.433h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                    WhatsApp
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <video id="hero-vid" class="hero-video" autoplay loop muted playsinline preload="metadata"
+            poster="logo-square-transp.png">
+            <source src="hero.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-badges">
+                <span class="badge">Eastleigh Section 1, Nairobi</span>
+                <span class="badge">Smile Restoration Experts</span>
+            </div>
+            <h1>The Art of <span class="text-gradient">Restoring</span> Your Confidence.</h1>
+            <p>Welcome to Nairobi's premier center for dental transformations. Dr. Ruto combines surgical precision with
+                aesthetic artistry to rebuild smiles that change lives.</p>
+            <div class="hero-actions">
+                <a href="#results" class="btn btn-primary">View Transformations</a>
+                <a href="#booking" class="btn btn-secondary">Book Consultation</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Results Section: categorised & High Fidelity -->
+    <section id="results" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Real Patient <span class="text-gradient">Transformations</span></h2>
+                <p>Every case shown here is a real result achieved by Dr. Ruto. We focus on results that look natural,
+                    feel comfortable, and last a lifetime.</p>
+            </div>
+
+            <!-- Implants & Smile Restoration -->
+            <div class="comparison-category">
+                <h3 class="category-title">Smile Restorations & Implants</h3>
+                <div class="comparison-grid">
+                    <!-- Case 1 -->
+                    <div class="comparison-card">
+                        <div class="image-pair">
+                            <div class="img-box" onclick="openLightbox('before1.jpg')">
+                                <span class="img-label">Before</span>
+                                <img src="before1.jpg" alt="Implant Case Before" loading="lazy">
+                            </div>
+                            <div class="img-box" onclick="openLightbox('after1.jpg')">
+                                <span class="img-label">After</span>
+                                <img src="after1.jpg" alt="Implant Case After" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <h4>Complete Frontal Restoration</h4>
+                            <p>Missing teeth replaced with high-durability aesthetic implants.</p>
+                        </div>
+                    </div>
+                    <!-- Case 3 -->
+                    <div class="comparison-card">
+                        <div class="image-pair">
+                            <div class="img-box" onclick="openLightbox('before3.jpg')">
+                                <span class="img-label">Before</span>
+                                <img src="before3.jpg" alt="Restoration Case Before" loading="lazy">
+                            </div>
+                            <div class="img-box" onclick="openLightbox('after3.jpg')">
+                                <span class="img-label">After</span>
+                                <img src="after3.jpg" alt="Restoration Case After" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <h4>Functional & Aesthetic Recovery</h4>
+                            <p>Correcting structural gaps for a seamless, aligned smile.</p>
+                        </div>
+                    </div>
+                    <!-- Case 4 -->
+                    <div class="comparison-card">
+                        <div class="image-pair">
+                            <div class="img-box" onclick="openLightbox('before4.jpg')">
+                                <span class="img-label">Before</span>
+                                <img src="before4.jpg" alt="Veneer Case Before" loading="lazy">
+                            </div>
+                            <div class="img-box" onclick="openLightbox('after4.jpg')">
+                                <span class="img-label">After</span>
+                                <img src="after4.jpg" alt="Veneer Case After" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <h4>Premium Unit Placement</h4>
+                            <p>Advanced veneer application creating a bright, natural finish.</p>
+                        </div>
+                    </div>
+                    <!-- Case 5 -->
+                    <div class="comparison-card">
+                        <div class="image-pair">
+                            <div class="img-box" onclick="openLightbox('before5.jpg')">
+                                <span class="img-label">Before</span>
+                                <img src="before5.jpg" alt="Full Restoration Before" loading="lazy">
+                            </div>
+                            <div class="img-box" onclick="openLightbox('after5.jpg')">
+                                <span class="img-label">After</span>
+                                <img src="after5.jpg" alt="Full Restoration After" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <h4>Life-Changing Alignment</h4>
+                            <p>Comprehensive treatment plan spanning 6 months of restoration.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Orthodontics -->
+            <div class="comparison-category">
+                <h3 class="category-title">Braces & Alignment</h3>
+                <div class="comparison-grid">
+                    <!-- Case 2 -->
+                    <div class="comparison-card">
+                        <div class="image-pair">
+                            <div class="img-box" onclick="openLightbox('before2.jpg')">
+                                <span class="img-label">Before</span>
+                                <img src="before2.jpg" alt="Braces Case Before" loading="lazy">
+                            </div>
+                            <div class="img-box" onclick="openLightbox('after2.jpg')">
+                                <span class="img-label">After</span>
+                                <img src="after2.jpg" alt="Braces Case After" loading="lazy">
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <h4>Crowding Correction</h4>
+                            <p>Achieving perfect dental symmetry through targeted orthodontics.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restored Smile: Emotional Focus -->
+    <section class="section bg-soft">
+        <div class="container restored-section">
+            <div class="restored-content">
+                <h2>A Smile That <span class="text-gradient">Speaks Volumes.</span></h2>
+                <p>Dental work is more than clinical — it's personal. When we restore a smile, we restore the ability to
+                    laugh without hesitation and speak with authority. Our high-fidelity restorations are designed to
+                    match your facial profile perfectly, ensuring your new smile feels like 'you'.</p>
+                <div style="display: flex; gap: 20px;">
+                    <a href="https://wa.me/254719115082" class="btn btn-whatsapp">Start Your Journey</a>
+                    <a href="tel:0719115082" class="btn btn-secondary">Speak to Dr. Ruto</a>
+                </div>
+            </div>
+            <div class="restored-image">
+                <img src="restored smile.jpg" alt="Patient admiring her new smile" loading="lazy">
+                <div class="restored-caption">
+                    <strong>Results that inspire.</strong>
+                    <p>Experience the confidence of a fully restored smile today.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services & Pricing: Transparent & Detailed -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="text-gradient">Services</span></h2>
+                <p>Transparent pricing is a trust signal. We provide world-class dental care with zero hidden fees,
+                    right here in Nairobi.</p>
+            </div>
+
+            <!-- Featured Service: Braces -->
+            <div class="service-featured">
+                <div class="service-image-bundle">
+                    <img src="braces0.jpg" alt="Braces Detail 1" loading="lazy">
+                    <img src="braces1.jpg" alt="Braces Detail 2" loading="lazy">
+                </div>
+                <div class="service-details">
+                    <h3>Orthodontic Programs</h3>
+                    <div class="price-tag">From Ksh 25,000 <span style="font-size: 1rem; color: var(--text-light);">per
+                            jaw</span></div>
+                    <p style="margin-bottom: 24px; color: var(--text-muted);">Our braces packages are comprehensive. We
+                        don't just align teeth; we ensure bite functional health and long-term stability.</p>
+                    <ul class="pricing-details" style="list-style: none;">
+                        <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;">
+                            <span style="color: var(--brand-green);">✓</span> Flexible Monthly Adjustments (Ksh 3,000)
+                        </li>
+                        <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;">
+                            <span style="color: var(--brand-green);">✓</span> High-Fidelity Retainers (Ksh 15,000)
+                        </li>
+                        <li style="margin-bottom: 10px; display: flex; align-items: center; gap: 10px;">
+                            <span style="color: var(--brand-green);">✓</span> Free check-up for the first 3 months
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Pricing Grid -->
+            <div class="pricing-list-premium">
+                <div class="pricing-item">
+                    <h4>Tooth Masking</h4>
+                    <p class="price-tag" style="font-size: 1.5rem;">Ksh 2,000 <span style="font-size: 0.9rem;">/
+                            tooth</span></p>
+                    <p>Perfect for correcting minor discolorations and surface imperfections.</p>
+                </div>
+                <div class="pricing-item">
+                    <h4>Veneers</h4>
+                    <p class="price-tag" style="font-size: 1.5rem;">Ksh 20,000 <span style="font-size: 0.9rem;">/
+                            unit</span></p>
+                    <p>6-unit package available for Ksh 120,000. Premium materials only.</p>
+                </div>
+                <div class="pricing-item" style="border-color: var(--brand-cyan); background: var(--brand-cyan-light);">
+                    <h4>Smile Restoration</h4>
+                    <p class="price-tag" style="font-size: 1.5rem;">From Ksh 130,000</p>
+                    <p>All-inclusive package for comprehensive dental rebuilding.</p>
+                </div>
+                <div class="pricing-item">
+                    <h4>Extractions</h4>
+                    <p class="price-tag" style="font-size: 1.5rem;">From Ksh 1,000</p>
+                    <p>Quick, painless procedures (Wisdom teeth priced separately).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section bg-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2>Patient <span class="text-gradient">Testimonies</span></h2>
+                <p>Authentic stories from people who walked into Smiley Dental with a dream and walked out with a smile.
+                </p>
+            </div>
+            <div class="comparison-grid">
+                <div class="comparison-card" style="padding: 0; overflow: hidden;">
+                    <video class="testimonial-vid" src="Testimonial1.mp4" controls preload="metadata"
+                        style="width: 100%; aspect-ratio: 9/16; object-fit: cover;"></video>
+                    <div style="padding: 24px;">
+                        <h4>Implant Success</h4>
+                        <p>"I can finally eat and smile with confidence again. The transformation is surreal."</p>
+                    </div>
+                </div>
+                <div class="comparison-card" style="padding: 0; overflow: hidden;">
+                    <video class="testimonial-vid" src="Testimonial2.mp4" controls preload="metadata"
+                        style="width: 100%; aspect-ratio: 9/16; object-fit: cover;"></video>
+                    <div style="padding: 24px;">
+                        <h4>Alignment Journey</h4>
+                        <p>"The process was transparent and the results exceeded my expectations."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet Dr. Ruto -->
+    <section class="section">
+        <div class="container grid-2">
+            <div class="profile-image">
+                <img src="Dr Ruto.jpg" alt="Dr. Ruto"
+                    style="width: 100%; border-radius: var(--radius-lg); box-shadow: var(--shadow-lg);" loading="lazy">
+            </div>
+            <div class="profile-text">
+                <span
+                    style="color: var(--brand-cyan); font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;">Lead
+                    Surgeon</span>
+                <h2 style="font-size: 3rem; margin: 16px 0;">Meet Dr. Ruto</h2>
+                <p style="font-size: 1.2rem; margin-bottom: 24px; color: var(--text-muted);">Dr. Ruto founded Smiley
+                    Dental to provide world-class dentistry without the intimidating clinical atmosphere. By combining
+                    real-time TikTok transparency with surgical excellence, he has become one of Nairobi's most trusted
+                    names in smile restoration.</p>
+                <p style="font-size: 1.1rem; color: var(--text-muted); margin-bottom: 32px;">"At Smiley Dental, we don't
+                    just fix teeth. We restore your ability to express yourself. Every patient is a new masterpiece."
+                </p>
+                <a href="tel:0719115082" class="btn btn-primary">Book Time with Dr. Ruto</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology & Hygiene -->
+    <section class="section clinic-showcase">
+        <div class="container">
+            <div class="section-header clinic-content">
+                <h2>Our <span style="color: var(--brand-cyan);">Technology</span> & Space</h2>
+                <p>We invest in the latest dental technology to ensure procedures are faster, painless, and more
+                    accurate. Our clinic in Lillyput House maintains international sterilization standards.</p>
+            </div>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <img src="clinic shot.jpg" alt="Modern Clinic Interior" loading="lazy">
+                    <div class="tech-overlay">
+                        <h4>Welcoming Environment</h4>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="tech-item">
+                    <img src="clinic shot 2.jpg" alt="Precision Dental Tools" loading="lazy">
+                    <div class="tech-overlay">
+                        <h4>Precision Care</h4>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="tech-item">
+                    <img src="clinic shot cavity.webp" alt="Advanced Imaging" loading="lazy">
+                    <div class="tech-overlay">
+                        <h4>Advanced Diagnostics</h4>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Map Section -->
+    <section id="booking" class="section bg-soft">
+        <div class="container">
+            <div class="comparison-card" style="max-width: 900px; margin: 0 auto; padding: 60px; text-align: center;">
+                <h2 style="font-size: 3rem; margin-bottom: 24px;">Start Your Restoration</h2>
+                <p style="font-size: 1.2rem; color: var(--text-muted); margin-bottom: 48px;">Visit us today at Lillyput
+                    House, 2nd Avenue, Eastleigh Section 1. No long waitlists, just direct professional care.</p>
+
+                <div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 60px; flex-wrap: wrap;">
+                    <div class="contact-card">
+                        <h5 style="color: var(--text-light); text-transform: uppercase; margin-bottom: 12px;">Call /
+                            WhatsApp</h5>
+                        <p style="font-size: 1.8rem; font-weight: 700;">0719 115 082</p>
+                    </div>
+                    <div class="contact-card">
+                        <h5 style="color: var(--text-light); text-transform: uppercase; margin-bottom: 12px;">Operating
+                            Hours</h5>
+                        <p style="font-size: 1.2rem; font-weight: 600;">Mon – Fri: 8am – 4pm</p>
+                        <p style="color: var(--text-muted);">Closed Saturday</p>
+                    </div>
+                </div>
+
+                <div style="display: flex; gap: 20px; justify-content: center;">
+                    <a href="https://wa.me/254719115082" class="btn btn-whatsapp">Message on WhatsApp</a>
+                    <a href="tel:0719115082" class="btn btn-primary">Call Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-info">
+                    <img src="logo-long-transp.png" alt="Smiley Dental" style="height: 50px; margin-bottom: 32px;">
+                    <p class="address-text">Lillyput House, 2nd Avenue<br>Eastleigh Section 1, Nairobi<br>Home of Smile
+                        Restoration.</p>
+                    <a href="https://tiktok.com/@smiley_dental" class="tiktok-link">
+                        Follow @smiley_dental on TikTok
+                    </a>
+                </div>
+                <div>
+                    <h4>Services</h4>
+                    <ul style="list-style: none;">
+                        <li><a href="#services"
+                                style="color: var(--text-muted); display: block; margin-bottom: 12px;">Implants</a></li>
+                        <li><a href="#services"
+                                style="color: var(--text-muted); display: block; margin-bottom: 12px;">Braces</a></li>
+                        <li><a href="#services"
+                                style="color: var(--text-muted); display: block; margin-bottom: 12px;">Veneers</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Direct Contact</h4>
+                    <a href="tel:0719115082" class="contact-link">0719 115 082</a>
+                    <p style="color: var(--text-muted);">info@smileydental.co.ke</p>
+                </div>
+            </div>
+            <div class="footer-bottom"
+                style="text-align: center; border-top: 1px solid var(--bg-alt); padding-top: 40px; color: var(--text-light); font-size: 0.9rem;">
+                &copy; <span id="year"></span> Smiley Dental Nairobi. Beautiful Results, Guaranteed.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Lightbox -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="lightbox-close">&times;</span>
+        <img id="lightbox-img" class="lightbox-img" src="" alt="Zoom View">
+    </div>
+
+    <!-- Optimization Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
